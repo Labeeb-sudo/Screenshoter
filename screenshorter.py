@@ -41,5 +41,6 @@ if __name__=="__main__":
         speak("ScreenShot captured sir")
         speak("Name sir")
         a = takeCommand()
+#         You Can Choose Your Location Where You Want To Save
         screenshot.save("C:\\Users\\Labeeb\\Desktop\\HTML\\" + a + '.jpg')
         speak("Screenshot has been saved to The HTML folder named" + a )
