@@ -40,6 +40,6 @@ if __name__=="__main__":
         screenshot = pyautogui.screenshot()
         speak("ScreenShot captured sir")
         speak("Name sir")
-        a = input("Name: ")
+        a = takeCommand()
         screenshot.save("C:\\Users\\Labeeb\\Desktop\\HTML\\" + a + '.jpg')
         speak("Screenshot has been saved to The HTML folder named" + a )
